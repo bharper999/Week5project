@@ -1,0 +1,97 @@
+body{
+background-color: black;
+}
+
+#top-header{
+text-align: center;
+height: 112px; 
+background: #3A3838;
+width: 1500px;
+}
+
+#logo {
+    float: left;
+    padding: none;
+    margin: none;
+    height: 60px;
+    width: 30%;
+}
+
+#logo img{
+    width: 60%;
+    display: flex;
+    padding: 10px 0px;
+    vertical-align: middle;
+} 
+
+#menu{
+    float: right;
+    width: 70%;
+    height: 50%;
+    margin: none;
+}
+     
+#menu ul {
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+
+#menu li a, #menu li span{
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+form.nosubmit {
+    border: none;
+    padding: 0;
+  }
+  
+  input.nosubmit {
+    width: 260px;
+    border: 1px solid whitesmoke;
+    display: block;
+    padding: 9px 4px 9px 40px;
+    background: whitesmoke url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+  }
+
+
+  .grid-container {
+    display:grid;
+    grid-template-columns: repeat(1, 2fr);
+    grid-auto-rows: 400px;
+    background-color: white;
+    padding: 5px;
+  }
+
+/* Designing all grid-items */
+.grid-item {
+  background: #D9D9D9;
+  text-align: center;
+}
+
+p{
+text-align: center;
+}
+
+#ipad{
+justify-content: right;
+}
+
+
+
+
+
+
+  
+
+
+	
+
+
+
